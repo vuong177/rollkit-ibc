@@ -1,0 +1,7 @@
+syntax = "proto3";
+package rollkitibc.rollkitibc;
+
+option go_package = "rollkit-ibc/x/rollkitibc/types";
+
+// Msg defines the Msg service.
+service Msg {}

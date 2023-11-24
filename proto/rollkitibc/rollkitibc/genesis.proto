@@ -1,0 +1,12 @@
+syntax = "proto3";
+package rollkitibc.rollkitibc;
+
+import "gogoproto/gogo.proto";
+import "rollkitibc/rollkitibc/params.proto";
+
+option go_package = "rollkit-ibc/x/rollkitibc/types";
+
+// GenesisState defines the rollkitibc module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}
