@@ -113,6 +113,7 @@ import (
 	rollkitibcmodule "rollkit-ibc/x/rollkitibc"
 	rollkitibcmodulekeeper "rollkit-ibc/x/rollkitibc/keeper"
 	rollkitibcmoduletypes "rollkit-ibc/x/rollkitibc/types"
+
 	// this line is used by starport scaffolding # stargate/app/moduleImport
 
 	appparams "rollkit-ibc/app/params"

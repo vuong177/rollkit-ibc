@@ -6,11 +6,12 @@ rm -rf $BASE_DIR
 rollkit-ibcd --home "$BASE_DIR" init FullNode --chain-id $CHAIN_ID
 
 cp -R "$HOME/.rollkit-ibc/config/genesis.json" "$BASE_DIR/config/genesis.json"
+
 export AUTH_TOKEN=$(docker exec $(docker ps -q)  celestia bridge --node.store /home/celestia/bridge/ auth admin)
 
-DA_BLOCK_HEIGHT=333
-NAMESPACE="c6b65c99e475e125"
-P2P_ID="12D3KooWBcfN4obHukPCU9GPB33sUCiKGbFRb36hXj4Fzmjdk8R3"
+DA_BLOCK_HEIGHT=572
+NAMESPACE=aeab9d13ea5d5340
+P2P_ID="12D3KooWMpy1EMUZq4HoKBih46a4Se36NHor935SNJ7uJ2hV55K6"
 
 # rollkit logo
 cat <<'EOF'
