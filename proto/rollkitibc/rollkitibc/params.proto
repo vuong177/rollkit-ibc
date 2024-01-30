@@ -1,0 +1,15 @@
+syntax = "proto3";
+package rollkitibc.rollkitibc;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+
+option go_package = "rollkit-ibc/x/rollkitibc/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (amino.name) = "rollkitibc/x/rollkitibc/Params";
+  option (gogoproto.equal) = true;
+
+  
+}
