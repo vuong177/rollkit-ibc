@@ -337,4 +337,4 @@ replace github.com/cosmos/cosmos-sdk => github.com/rollkit/cosmos-sdk v0.50.1-ro
 
 replace github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 
-replace github.com/rollkit/rollkit => ../rollkit
+replace github.com/rollkit/rollkit => github.com/decentrio/rollkit v0.0.0-20240201064813-30147e6a3544
